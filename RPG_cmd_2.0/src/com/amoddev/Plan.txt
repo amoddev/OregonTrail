@@ -1,5 +1,0 @@
-game loop
-
-1. get input
-2. do events
-3. display
