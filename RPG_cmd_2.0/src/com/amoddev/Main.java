@@ -53,6 +53,8 @@ public class Main {
         }else if(input == 3){
             settings.setMonth(5);
         }
+        display.clear(12);
+        System.out.println("Now you need supplies for you journey, buy some from Matt's General Store");
 
 
 
