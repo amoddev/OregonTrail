@@ -167,5 +167,39 @@ public class DisplayManager {
 
         }
     }
+
+    public void Decoder(int[][] input){
+        for (int[] ints : input) {
+
+            for (int j = 0; j < ints.length; ++j) {
+                if (ints[j] == 6) {
+                    System.out.print(LR);
+
+                }
+                if (ints[j] == 5) {
+                    System.out.print(LL);
+
+                } else if (ints[j] == 4) {
+                    System.out.print(FB);
+
+                } else if (ints[j] == 3) {
+                    System.out.print(LTFB);
+
+                } else if (ints[j] == 2) {
+                    System.out.print(LHB);
+
+                } else if (ints[j] == 1) {
+                    System.out.print(LOFB);
+
+                } else {
+                    System.out.print(SP);
+
+                }
+                if (j == 31) {
+                    System.out.println();
+                }
+            }
+        }
+    }
 }
 
