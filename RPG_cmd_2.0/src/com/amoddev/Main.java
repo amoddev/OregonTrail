@@ -55,8 +55,8 @@ public class Main {
         }
         display.clear(12);
         System.out.println("Now you need supplies for you journey, buy some from Matt's General Store");
-
-
+        display.clear(10);
+        display.Decoder(display.StoreDisplay());
 
 
     }
